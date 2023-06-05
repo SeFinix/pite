@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1920px){
+    body{
+        background-image: url(pexels_forest.jpg);
+        background-repeat: repeat-y;  
+        background-size: cover;
+    }
+    
+    #menu{
+        position: sticky;
+        top: 0;
+        display: flex;
+        border-style: solid;
+        border-color: black;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    
+    
+    #menubar{
+        display: flex;
+        align-self:initial;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    
+    }
+    
+    #menubar h2{
+        border-style: solid;
+        padding: 5px;
+    }
+    #menubar h2:hover{
+        color: #801818;
+        border-color: #801818;
+        transition: 0.25s;
+    }
+    
+    #logga{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-right: solid;
+        border-color: black;
+        font-size: 20px;
+        width: 300px;
+        height: auto;
+        padding-left: 5px;
+    }
+    
+    #logga h1:hover{
+        color:#801818;
+    }
+    
+    #intro {
+        display: flex;  
+    }
+    
+    #introText{
+        padding-left: 10px;
+        width: 100%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.15);
+        font-size: 18px;
+    }
+    
+    #huvudDel{
+        padding-left: 10px;
+        display: flex;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+}
+@media only screen and (max-width: 1000px){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+    }
+    #menu{
+        position: relative;
+        font-size: 50%;
+        display: flex;
+        border-style: solid;
+        border-color: black;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    #logga{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menubar{
+        display: flex;
+        align-self:initial;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    
+    }
+
+    #menubar h2{
+        border-style: solid;
+        padding: 5px;
+    }
+
+    #intro {
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    #huvudDel{
+        display: flex; 
+        flex-direction: column;
+    }
+
+    p{
+        font-size: 125%;
+    }
+
+    #kommunKarta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
