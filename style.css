@@ -6,6 +6,7 @@
 }
 @media only screen and (max-width: 1920px){
     body{
+        zoom: 50%;
         background-image: url(pexels_forest.jpg);
         background-repeat: repeat-y;  
         background-size: cover;
